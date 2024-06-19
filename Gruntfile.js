@@ -399,7 +399,8 @@ module.exports = function(grunt) {
                             'monaco/dist/**',
                             'monaco/types/extraLibs.js',
                             'monaco/style.css',
-                            'monaco/monaco-bootstrap.js'
+                            'monaco/monaco-bootstrap.js',
+                            'socket.io-client/socket.io.min.js'
                         ],
                         expand: true,
                         dest: 'packages/node_modules/@node-red/editor-client/public/vendor/'
